@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--HI I'LL EXPLAIN WHY FALL IS BETTER THAN SUMMER-->
+    <title>Two-Column Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Why Fall is Better than Summer - Melany Yovera </h1>
+        </header>
+        <main>
+            <div class="column" id="column1">
+                <h2>Pros:</h2>
+                <p> <ol> <li> Halloween <li> Thanksgiving <li> Pumpkin spice <li> Apple Picking <li> Perfect Cozy Weather 
+                    </p>
+            </div>
+            <div class="column" id="column2">
+                <h2>Cons:</h2>
+                <p> <p> <ol> <li> Showering every minute <li> Hot weather <li> Allergies <li> Mosquitos <li> Feeling Sweaty 
+                    </p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:rgb(17, 17, 121);
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 180px;
+    background-color:rgb(255, 213, 203);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 30px;
+    background-color:rgb(255, 235, 174);
+    border: 2px solid rgb(255, 140, 114);
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+</style>
