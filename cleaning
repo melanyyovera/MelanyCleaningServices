@@ -1,0 +1,61 @@
+       <!-- Add more service cards here -->
+    </section>
+
+    <section id="about" class="about">
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Your Image Gallery</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #8dc67f;
+                    
+                }
+        
+                main {
+                    padding: 0px;
+                }
+        
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            </style>
+        </head>
+        <body>
+            <main>
+                <section>
+                    <img src="1.jpg" alt="1.pdf">
+                </section>
+        
+                <section>
+                    <img src="2.jpg"
+                </section>
+
+                <section>
+                    <img src="cleaning services.jpg"
+                </section>
+                <section>
+                    <img src="4.jpg"
+                </section>
+                <section>
+                    <img src="5.jpg"
+                </section>
+                <section>
+                    <img src="6.jpg"
+                </section>
+                <section>
+                    <img src="7.jpg"
+                </section>
+                <section>
+                    <img src="8.jpg"
+                </section>
+                
+       
